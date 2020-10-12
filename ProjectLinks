@@ -1,0 +1,30 @@
+Babylon Project - Infinite Metaverse Alliance Links:
+
+
+https://www.dropbox.com/sh/fvl17jhzjwuq3p6/AADWc32OmI_aowAgi4flg19Ya?dl=0 Pitchdeck
+
+http://opensimulator.org/wiki/Main_Page This is the OpenSimulator wiki, it contains all the documentation about OpenSim's architecture & database
+
+http://opensimulator.org/wiki/Configuration Configuration Diagrams.
+
+http://opensimulator.org/wiki/Category:Tech_Reference This contains references to the API. I recommend understanding the Configuration Diagrams before you come here.
+
+http://www.metaverseink.com/blog/hypergrid/content-protection-an-incomplete-proposal/ This article covers the problem. 
+
+But it claims content can never be stolen: this is incorrect. Rest of it is great for learning tho
+
+Seth suggests ULID for new identifiers in the blockchain instead of creating UPID https://github.com/ulid/spec
+
+Yes, it's called Nominated Proof of Stake. https://wiki.polkadot.network/docs/en/learn-staking
+
+I think we might copy Polkadot's consensus model
+https://trello.com/invite/b/sde82ItU/58bc917c4b98ae9f305a56d3a7088c45/anti-theft-vr-blockchain
+
+http://opensimulator.org/wiki/Database:Assets
+Database:Assets
+
+http://opensimulator.org/wiki/Database_Documentation
+Database Documentation
+
+http://opensimulator.org/wiki/Hypergrid_Implementation
+Hypergrid Implementation
