@@ -1,0 +1,37 @@
+General info about the assets themselves, how they are created, and related permissions is noted below. Permissions will be addressed in future tech.		
+		
+For objects in a user or region inventory linked to the asset server, where an object may contain a series of linked assets, permissions exist that need to be taken into consideration to look for potentially fraudulent asset creation. So the next phase of future technology would leverage a second blockchain with business logic that needs to be added to OpenSimulator inventory server where the objects have their own UUID.		
+		
+Objects can be created by OpenSimulator users with the client viewer. Each object created gets a UUID. The UUIDs are links to objects in the asset server, which can also be structures made up of many linked parts with UUIDs (ie. car with four wheels). At the ends of all these links are texture maps, mesh objects, sounds, animations, etc.		
+		
+When you log into your home grid, the server sends a copy of your inventory list (your owned objects) to your viewer. This consists of (mainly) a list of names and UUIDs. When you rez an object in-world, the inventory objectt (just the name and UUID) is copied from your avatar inventory to the scene inventory of the region you are in. If you don't have COPY permission to the object, the inventory asset is removed from your avatar inventory. The actual data describing the object isn't involved in this transfer.		
+		
+When a creator makes an object, they set the permissions for use of the object by others. Permissions are as follows:		
+		
+	Next Owner Permissions:	MCTE
+	M=Modify	Next owner can modify object.
+	C=Copy	Next owner can copy, if owner places a copy in world (rezzes) they retain their original in inventory.
+	T=Transfer	Next owner can transfer AKA Resell/Giveaway to another user or rez in world but does not retain a copy unless C is set to copy.
+	E=Export	Object can be exported via inventory to another grid or delivered from one grid to a buyer on an another grid via a web-based marketplace.
+		
+	Example Combinations Creators Often Use:	
+	C	Next owner can rez several copies and recover if one is deleted or lost for any reason. They cannot transfer it to someone else AKA Resell/Giveaway or take it out of the creator's grid.
+	CE	Next owner can make copies, save into an OAR (Opensim Archive of a Region), or take it out of the creator's grid and copy there. They can't transfer to someone else. Someone on an Open Grid or their own grid could abuse God Mode and steal it from you. 
+	MC	Next owner can modify and copy this item but not transfer to someone else or take it out of the creator's grid.
+	MCT	Often used for objects sold to be used in other creations. One may set the root prim to MCT and set scripts inside as CT only. Next owner can make copies, use cpoies in other objects, and sell copies of those objects to their customers. Nobody but the creator can read or modify the scripts. (Unless they abuse God Mode in own grid or Open Grid and violate creator rights). 
+	MCTE	Same as above but exportable. This is known as full permissions and used to share creative commons objects with others.
+	MCE	Same as above but not transferable.
+		
+	Additional Permissions:	
+	Share with group	If an object is set to a group, this allows other members of the same group to edit it, dependent on restrictive permissions. This can make collaborative building easier since for example, group members can move shared objects. As with permissions in general, be careful of who else has access to your objects, and don't enable this if it's not needed.
+	Allow anyone to move	If this option is checked, anyone can move your object. This is rarely used because most people don't want complete strangers either unintentionally or maliciously destroying their building projects.
+	Allow anyone to copy	Anyone can take a copy of the object by right-clicking it, then choosing More > Take Copy from the pie menu. However, this feature can be confusing to use because the object and all of its contents must be fully-permissive and also have Allow anyone to copy checked. As a result, most people opt to use an easier alternative: set the object for sale as a free (L$0) copy instead which retains next owner permissions.
+		
+	For Sale Settings:	
+	Copy	Buyer recieves a copy of the object.
+	Content	Buyer recieves a copy of the contents of the object.
+	Original	Buyer gets a copy of the original object and the object in world is no longer for sale.
+		
+		
+		
+		
