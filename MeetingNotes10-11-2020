@@ -1,0 +1,35 @@
+Design Q&A 10/11/2020 Team Meeting
+
+Which fields are needed for the blockchain to track, validate, and flag discrepancies? 
+MVP blockchain will use two hashes, data field for one, then all others in a second hash
+
+Do we need to look at permissions? 
+Yes, future tech
+
+How will we get data from the asset server? 
+For the MVP we will use POST/GET
+
+How does an asset get registered by the creator to be placed on the blockchain? 
+Future tech web service
+
+How does the creator get notified of a discrepancy? 
+May not be needed after future tech is implemented.
+
+What does the future service look like beyond the Minimum Viable Product (MVP) we are building? 
+Web Service, Second block chain for object permission considerations
+
+Do we need an arbiter to be a tiebreaker in rare instances? 
+Depends on final design
+
+What happens if that arbiter ceases to exist? 
+Depends on final design
+
+If we need an arbiter can the oldest three nodes (grids running the blockchain service) form an arbitration team or can we specify which nodes comprise that team to start with? 
+Depends on final design
+
+The current concept idea is to define large grids based on the number of users as Nominators and small grids as Validators. Is this the way we want to go? 
+Depends on final design
+
+What we are building is a blockchain authority for the MVP as a first proof of concept phase followed by additional future tech that when combined will provide greater Intellectual Property protection for creators. In essence, creators (human users) register creations on the blockchain which has a goal to provide authentication. Human grid administrators can use the blockchain as an authoritative resource to assess whether theft has occured and act accordingly. Theft is altogether a different and complex issue due to the nature of open source viewers and bad actors who may abuse GOD powers. 
+
+We can brainstorm new names for our MVP or I can think of something appropriate.
