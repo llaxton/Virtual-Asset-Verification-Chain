@@ -1,4 +1,5 @@
-# Substrate Node Template
+# Substrate Node Template 
+# [TAKEN FROM SUBSTRATE.DEV TUTORIAL: CREATING YOUR FIRST NODE]
 
 A new FRAME-based Substrate node, ready for hacking :rocket:
 
